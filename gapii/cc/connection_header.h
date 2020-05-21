@@ -40,8 +40,6 @@ class ConnectionHeader {
 
   // Fakes no support for PCS, forcing the app to share shader source.
   static const uint32_t FLAG_DISABLE_PRECOMPILED_SHADERS = 0x00000001;
-  // Driver errors are queried after each call and stored as extras.
-  static const uint32_t FLAG_RECORD_ERROR_STATE = 0x10000000;
   // Defers the start frame until a message is receieved over the network.
   static const uint32_t FLAG_DEFER_START = 0x00000010;
   // Disables buffering of the output stream
